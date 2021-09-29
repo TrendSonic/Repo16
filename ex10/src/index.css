@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+  
+a {
+    text-decoration: none;
+    color: #3a3535;
+}
+  
+#navbar li {
+    list-style-type: none;
+    padding: 10px 0 10px 25px;
+    border-top: 2px solid;
+    border-top-color: #c5c2c2;
+}
+
+#navbar li:nth-child(7) {
+    padding: 0px;
+}
+  
+#navbar li:last-child {
+    border-top: none;
+}
+  
+#navbar ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#navbar {
+    flex: 1;
+    text-align: left;
+}
+  
+#header {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+#main-doc {
+    flex: 4;
+    text-align: left;
+    border-left: 2px solid;
+    border-left-color: #c5c2c2;
+    padding-left: 35px;
+}
+  
+img {
+    width: 100%;
+}
+  
+.main-section header {
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+  
+.main-section {
+    color: #353434;
+    margin-left: 20px;
+}
+  
+  .main-section header {
+    color: black;
+    margin-left: -20px;
+}
+  
+#main-doc #introduction code {
+    background-color: #ebe9e9;
+    display: block;
+    padding: 30px 0 30px 100px;
+    line-height: 25px;
+    font-size: 1.1em;
+}
+  
+#main-doc #values_types_and_operators code {
+    background-color: #f0eeee;
+    display: block;
+    padding: 20px 0 20px 50px;
+    word-spacing: 11px;
+    line-height: 20px;
+}
+
+#main-doc #values_types_and_operators code::first-line {
+    word-spacing: 15px;
+}
+  
+#main-doc #functions code {
+    background-color: #f0eeee;
+    display: block;
+    padding: 20px 0 20px 50px;
+}
